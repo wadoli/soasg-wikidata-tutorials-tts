@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="de-DE">
+<p><s>Hallo und herzlich Willkommen!</s></p>
+<p><s>In diesem Tutorial lernen Sie, wie Sie auf Wikidata einen Benutzer Account erstellen können.</s> <s>Mit den Pfeiltasten unten links können Sie durch das Tutorial navigieren.</s></p>
+<p><s>Sie können für Wikidata, Wikipedia und alle anderen Wikimedia Dienste denselben Account benutzen.</s> <s>Falls Sie bereits einen Wikipedia Benutzer Account haben, können Sie sich bei Wikidata mit dem bereits existierenden Benutzerkonto einloggen.</s></p>
+</speak>

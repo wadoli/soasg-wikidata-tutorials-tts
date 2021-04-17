@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-GB">
+<p><s>As an example, we have chosen the <w xml:lang="de">Heimatsmuseum</w> <w xml:lang="de">Oltingen-Wenslingen-Anwil</w>, a local museum in the Canton Basel Land. On the Wikidata homepage, enter the name of the institution in the search field on the top right. Then select the corresponding Wikidata item.</s></p>
+</speak>

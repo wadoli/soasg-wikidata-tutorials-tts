@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="de-DE">
+<p><s>Sobald Sie in das Feld <emphasis level="strong">Eigenschaft</emphasis> klicken, erhalten Sie eine <emphasis>Auswahl</emphasis>.</s><break/><s>Falls offizielle Website nicht bereits erscheint, geben Sie diese Eigenschaft ein.</s></p>
+<p><s>Kopieren Sie die <emphasis>URL der offiziellen Webseite</emphasis> der Institution in das Feld links davon.</s>
+<break/><s>Um die <emphasis>Sprache</emphasis> der hinterlegten Webseite anzugeben, können Sie einen Qualifikator hinzufügen.</s></p>
+</speak>

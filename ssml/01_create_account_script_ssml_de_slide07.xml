@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="de-DE">
+<p><s>Auf dieser Seite können Sie nun Informationen über die eigene Person preisgeben.</s> <s>Besonders relevant sind die eigenen Aktivitäten auf den Wikimedia Plattformen.</s> <s>Ihre Benutzer-Seite ist öffentlich.</s> <s>Nur Sie können diese editieren.</s></p>
+<p><s>Wenn für dieses Benutzerkonto noch nie Informationen eingegeben wurden, klicken Sie auf die Schaltfläche «Erstellen».</s></p>
+<p><s>Sobald Sie einmal Informationen abgespeichert haben, wird die Schaltfläche «Erstellen» durch die Schaltfläche «Bearbeiten» ersetzt.</s> <s>Bei Bedarf können Sie die Informationen jederzeit überarbeiten.</s></p>
+</speak>

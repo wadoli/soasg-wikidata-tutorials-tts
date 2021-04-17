@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-GB">
+<p><s>There's also another way. You can add a new language link directly from the Wikidata item.</s></p>
+<p><s>You will need to do that if a Wikidata item exists, but there are no Wikipedia articles about the subject.</s></p>
+<p><s>To add a new link to Wikipedia, find the Wikipedia field and click on "edit".</s></p>
+</speak>

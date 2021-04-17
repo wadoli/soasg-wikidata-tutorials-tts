@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="de-DE">
+<p><s>Wählen Sie den Qualifikator «Sprache des Werks, Namens oder Begriffes» aus und geben Sie die entsprechende Sprache ein.</s></p>
+<p><s>Zum Schluss klicken Sie auf <emphasis>Veröffentlichen</emphasis>.</s></p>
+</speak>

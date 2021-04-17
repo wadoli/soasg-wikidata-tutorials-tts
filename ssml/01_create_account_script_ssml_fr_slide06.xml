@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="fr-FR">
+<p><s>Si vous êtes maintenant connecté, cliquez sur votre nom d'utilisateur.</s> <s>Vous serez dirigé vers la page de votre compte utilisateur.</s></p>
+</speak>

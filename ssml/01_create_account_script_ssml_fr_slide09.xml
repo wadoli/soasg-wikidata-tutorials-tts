@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="fr-FR">
+<p><s>Avant de pulblier vos informations, il est conseillé de les prévisualiser d'abord.</s> <s>Ainsi, les éventuelles erreurs peuvent être détectées et corrigées avant la publication définitive.</s> <s>Si vous êtes maintenant sûr de vouloir publier les informations sur votre profil, vous pouvez le faire en cliquant sur le bouton "Publier les modifications".</s></p>
+</speak>

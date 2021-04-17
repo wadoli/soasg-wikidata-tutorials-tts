@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="de-DE">
+<p><s>Als erstes müssen Sie auf der Startseite von Wikidata im Suchfeld oben rechts die gewünschte Institution eingeben und auswählen.</s> <s>Wir haben in unserem Beispiel die Schweizer Handball Hall of Fame gewählt.</s></p>
+</speak>

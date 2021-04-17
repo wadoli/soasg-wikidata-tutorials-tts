@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-GB">
+<p><s>In the property field on the left, select "official website".</s></p>
+<p><s>Copy and paste the URL of the official website of the institution in the middle field.</s></p>
+<p><s>As Wikidata is a multilingual platform used by people from all around the world, it is useful to specify the language of the website.</s></p>
+<p><s>To do this, click on "add qualifier".</s> <s>Select "language of work or name".</s></p>
+<p><s>Add the language of the official website. </s></p>
+<p><s>Then click on "publish". Now you are done!</s></p>
+</speak>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="fr-FR">
+<p><s>Choisissez maintenant un nom d'utilisateur et saisissez-le dans le champ  correspondant.</s> <s>Veuillez noter que le nom d'utilisateur ne doit pas avoir été attribué auparavant.</s> <s>Si le nom d'utilisateur souhaité a déjà été attribué, Wikidata vous en informera.</s> <s>Créez maintenant un mot de passe et confirmez-le.</s> <s>Si vous le souhaitez, vous pouvez lier votre compte d'utilisateur à une adresse de courriel.</s> <s>N’oubliez pas de vérifier votre dossier de courrier indésirable si vous liez votre compte à votre adresse de courrier électronique.</s></p>
+<p><s>Dans une dernière étape, vous devrez effectuer le contrôle de sécurité CAPTCHA.</s></p>
+<p><s>En cliquant sur le bouton "Créer votre compte", votre compte utilisateur sera créé.</s></p>
+</speak>

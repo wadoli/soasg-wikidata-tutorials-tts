@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="it-IT">
+<p><s>Per prima cosa, accedi al sito web di Wikidata.</s></p>
+<p><s>Per impostazione predefinita, il sito web appare in inglese.</s></p>
+</speak>

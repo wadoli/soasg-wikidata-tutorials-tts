@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="it-IT">
+<p><s>Buongiorno e benvenuti!</s></p>
+<p><s>In questo tutoriale, si impara come aggiungere il sito web ufficiale di un'istituzione in Wikidata.</s></p>
+<p><s>Usi le frecce sulle diapositive per navigare attraverso il tutoriale.</s></p>
+</speak>

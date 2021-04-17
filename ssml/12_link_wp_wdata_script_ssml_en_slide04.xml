@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="en-GB">
+<p><s>If an article is linked to a Wikidata item, you can see the link on the left hand side of the site.</s></p>
+<p><s>If it's not there, it means the article has to be linked to an item. This is the case when you create a new article.</s></p>
+<p><s>It's always good to try and link your new article to Wikidata.</s></p>
+<p><s>In the following slides, you will learn how to do that.</s></p>
+</speak>

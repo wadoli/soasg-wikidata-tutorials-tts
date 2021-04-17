@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="it-IT">
+<p><s>In questa pagina puoi rivelare informazioni su di te e sulle tue attività su Wikidata.</s> <s>Se non sono mai state inserite informazioni per questo account utente, clicca sul pulsante "Crea".</s></p>
+<p><s>Una volta salvate le informazioni, il pulsante "Crea" sarà rimpiazzato dal pulsante «Modifica».</s> <s>Il testo può sempre essere modificato se necessario.</s> <s>La tua pagina utente è accessibile da tutti ma può solo essere modificata da te stesso.</s></p>
+</speak>

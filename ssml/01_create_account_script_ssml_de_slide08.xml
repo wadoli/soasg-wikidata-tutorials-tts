@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<speak version="1.1" xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.w3.org/2001/10/synthesis
+                 http://www.w3.org/TR/speech-synthesis11/synthesis.xsd"
+       xml:lang="de-DE">
+<p><s>Nun können Sie Informationen über Sie als Person eingeben.</s></p>
+<p><s>Wenn Sie gedenken Wikidata in mehreren Sprachen zu verwenden, ist es sinnvoll diese Sprachen mittels einer Babel-Tabelle hinzuzufügen.</s> <s>Zu diesem Zweck adaptieren Sie am einfachsten den blau umrahmten Code.</s> <s>Beachten Sie, dass die ersten zwei Buchstaben für die internationale Abkürzung der gewünschten Sprache stehen.</s> <s>Die Zahl (0-5), respektive der Buchstaben «n» definieren das Sprachniveau.</s> <s>Wenn Sie eine weitere Sprache hinzufügen möchten, können Sie dies mit einem weiteren Trennzeichen machen.</s> <s>Weitere Informationen finden Sie unter den Wikidata Seiten “Navigation in Wikidata/Benutzereinstellungen“ und Userboxes”.</s></p>
+</speak>

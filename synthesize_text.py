@@ -1,5 +1,10 @@
-#!/usr/bin/env python
+from google.cloud import texttospeech
 
+# the following code is copied from https://cloud.google.com/text-to-speech/docs/create-audio#ssml
+# with minor modifications by Oliver Waddell for the Wikidata Tutorial Factory @ #GLAMhack2021
+#
+# Original copyright notice 
+# from https://github.com/googleapis/python-texttospeech/blob/master/samples/snippets/synthesize_text.py :
 # Copyright 2018 Google Inc. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,61 +19,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Google Cloud Text-To-Speech API sample application .
-
-Example usage:
-    python synthesize_text.py --text "hello"
-    python synthesize_text.py --ssml "<speak>Hello there.</speak>"
-"""
-
-import argparse
-
-
-# [START tts_synthesize_text]
-def synthesize_text(text):
-    """Synthesizes speech from the input string of text."""
-    from google.cloud import texttospeech
-
-    client = texttospeech.TextToSpeechClient()
-
-    input_text = texttospeech.SynthesisInput(text=text)
-
-    # Note: the voice can also be specified by name.
-    # Names of voices can be retrieved with client.list_voices().
-    voice = texttospeech.VoiceSelectionParams(
-        language_code="en-US",
-        name="en-US-Standard-C",
-        ssml_gender=texttospeech.SsmlVoiceGender.FEMALE,
-    )
-
-    audio_config = texttospeech.AudioConfig(
-        audio_encoding=texttospeech.AudioEncoding.MP3
-    )
-
-    response = client.synthesize_speech(
-        request={"input": input_text, "voice": voice, "audio_config": audio_config}
-    )
-
-    # The response's audio_content is binary.
-    with open("output.mp3", "wb") as out:
-        out.write(response.audio_content)
-        print('Audio content written to file "output.mp3"')
-
-
-# [END tts_synthesize_text]
-
-
-# [START tts_synthesize_ssml]
-def synthesize_ssml(ssml):
+def synthesize_ssml(ssml, langcode, voicename, ssmlgender, output_filename):
     """Synthesizes speech from the input string of ssml.
 
     Note: ssml must be well-formed according to:
-        https://www.w3.org/TR/speech-synthesis/
+    https://www.w3.org/TR/speech-synthesis/
 
     Example: <speak>Hello there.</speak>
     """
-    from google.cloud import texttospeech
-
     client = texttospeech.TextToSpeechClient()
 
     input_text = texttospeech.SynthesisInput(ssml=ssml)
@@ -76,9 +34,9 @@ def synthesize_ssml(ssml):
     # Note: the voice can also be specified by name.
     # Names of voices can be retrieved with client.list_voices().
     voice = texttospeech.VoiceSelectionParams(
-        language_code="en-US",
-        name="en-US-Standard-C",
-        ssml_gender=texttospeech.SsmlVoiceGender.FEMALE,
+        language_code=langcode,
+        name=voicename,
+        ssml_gender=ssmlgender,
     )
 
     audio_config = texttospeech.AudioConfig(
@@ -90,27 +48,23 @@ def synthesize_ssml(ssml):
     )
 
     # The response's audio_content is binary.
-    with open("output.mp3", "wb") as out:
+    with open(output_filename, "wb") as out:
         out.write(response.audio_content)
-        print('Audio content written to file "output.mp3"')
+        print('Audio content written to file',output_filename,'.')
 
 
-# [END tts_synthesize_ssml]
+def file_to_string(path):
+    with open(path) as file:
+        return str(file.read())
 
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
-    )
-    group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument("--text", help="The text from which to synthesize speech.")
-    group.add_argument(
-        "--ssml", help="The ssml string from which to synthesize speech."
-    )
-
-    args = parser.parse_args()
-
-    if args.text:
-        synthesize_text(args.text)
-    else:
-        synthesize_ssml(args.ssml)
+# sample calls to create the audio for one presentation
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide01.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide01.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide02.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide02.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide03.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide03.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide04.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide04.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide05.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide05.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide06.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide06.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide07.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide07.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide08.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide08.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide09.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide09.mp3")
+synthesize_ssml(ssml=file_to_string("01_create_account_script_ssml_fr_slide10.xml"),langcode="fr-FR",voicename="fr-FR-Wavenet-E",ssmlgender=texttospeech.SsmlVoiceGender.FEMALE,output_filename="01_create_account_audio_fr_slide10.mp3")
